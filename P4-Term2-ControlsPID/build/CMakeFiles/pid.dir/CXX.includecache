@@ -1,0 +1,98 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/PID.cpp
+PID.h
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/PID.h
+iostream
+-
+
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/PID.h
+
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/Twiddle.cpp
+Twiddle.h
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/Twiddle.h
+iostream
+-
+math.h
+-
+
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/Twiddle.h
+PID.h
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/PID.h
+
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/json.hpp
+algorithm
+-
+array
+-
+cassert
+-
+cctype
+-
+ciso646
+-
+cmath
+-
+cstddef
+-
+cstdint
+-
+cstdlib
+-
+cstring
+-
+forward_list
+-
+functional
+-
+initializer_list
+-
+iomanip
+-
+iostream
+-
+iterator
+-
+limits
+-
+locale
+-
+map
+-
+memory
+-
+numeric
+-
+sstream
+-
+stdexcept
+-
+string
+-
+type_traits
+-
+utility
+-
+vector
+-
+
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/main.cpp
+uWS/uWS.h
+-
+iostream
+-
+json.hpp
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/json.hpp
+PID.h
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/PID.h
+Twiddle.h
+/home/rajeev/Self Driving Car/Udacity/TERM2/Sample_Projects/Udacity-Term2-SelfDrivingCar/P4-Term2-ControlsPID/src/Twiddle.h
+math.h
+-
+
