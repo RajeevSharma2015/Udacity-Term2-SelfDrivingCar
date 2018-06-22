@@ -9,22 +9,12 @@ public:
   double p_error;
   double i_error;
   double d_error;
-  double prev_cte;
-
-  /**
-   * Error counters
-  **/
-  long counter;
-  double errorSum;
-  double minError;
-  double maxError;
 
   /*
   * Coefficients
   */
-  double Kp;
-  double Ki;
-  double Kd;
+  double *p;
+
 
   /*
   * Constructor
@@ -50,21 +40,6 @@ public:
   * Calculate the total PID error.
   */
   double TotalError();
-
-  /*
-  *  Returns the average error.
-  */
-  double AverageError();
-
-  /*
-  * Returns the min error.
-  */
-  double MinError();
-
-  /*
-  * Returns the max error.
-  */
-  double MaxError();
 };
 
 #endif /* PID_H */
